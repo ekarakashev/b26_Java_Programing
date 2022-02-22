@@ -4,9 +4,9 @@ public class Goals {
 
     public static void main(String[] args) {
 
-      /*  todo: - Create todays package: day03_comments_escape_sequence
+      /*  todo: - Create today's package: day03_comments_escape_sequence
 
-                - Create a new class in todays package: Goals
+                - Create a new class in today's package: Goals
 
                 - Create a main method
 
