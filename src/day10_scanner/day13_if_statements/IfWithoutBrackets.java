@@ -1,4 +1,4 @@
-package day13_if_statements;
+package day10_scanner.day13_if_statements;
 
 public class IfWithoutBrackets {
 
