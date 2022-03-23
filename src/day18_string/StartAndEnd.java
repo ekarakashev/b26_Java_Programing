@@ -18,12 +18,15 @@ public class StartAndEnd {
         System.out.println(str.startsWith("Aoo"));
 
         String sentence = "today was a good day";
-        System.out.println(sentence.startsWith("today was a"));
-
+                // index   01234567891111111111
+                //                   0123456789
+        System.out.println(sentence.startsWith("today was a")); //true
+        System.out.println(sentence.startsWith("was")); //false
+        System.out.println(sentence.startsWith("was", 6)); // looking for "was" starting index 6 which is true
         System.out.println(sentence.endsWith("day")); // true
         System.out.println(sentence.endsWith(" day")); // true
         System.out.println(sentence.endsWith("good")); // false
-        System.out.println(sentence.endsWith("today was a good day"));
+        System.out.println(sentence.endsWith("today was a good day")); //true
 
 
 
